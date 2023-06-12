@@ -1,5 +1,5 @@
 # cmake min requirement
-cmake_minimum_required(VERSION 3.25)
+cmake_minimum_required(VERSION 3.18)
 
 # vcpkg path
 include("C:\\src1\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\")
@@ -7,7 +7,7 @@ set(CMAKE_TOOLCHAIN_FILE "C:\\src1\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\"
 set(VCPKG_TARGET_TRIPLET "x64-windows")
 
 # project name and version
-project(PangolinPointCloud VERSION 0.1.0)
+project(PointCloudPangolin VERSION 0.1.0)
 
 # CMAKE C++ std
 if(MSVC)
