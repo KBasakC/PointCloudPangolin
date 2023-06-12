@@ -26,7 +26,7 @@ It is assumed that the following are installed and configured
 
 ---
 ## Installation
-# Windows (Tested so far)
+### Windows (Tested so far)
 - Install Pangolin ([vcpkg package](https://vcpkg.io/en/packages.html)) using the command
 ```
 vcpkg install pangolin:x64-windows
