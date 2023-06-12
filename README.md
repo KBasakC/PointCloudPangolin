@@ -11,3 +11,18 @@ This project attempts to fill in this gap and demonstates point cloud visualizat
 - Coloring of the point cloud
 - Drawing the point cloud
 - Adjusting the point size of the rendered point cloud
+
+## Dependencies
+---------------
+- Pangolin
+- Eigen
+
+## Installation
+---------------
+# Windows (Tested so far)
+- Install Pangolin using the command
+```
+vcpkg install pangolin:x64-windows
+```
+- Code editor: Visual Studio Code
+- Compiler: MVSC from Microsoft Visual Studio Community
