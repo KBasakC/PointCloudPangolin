@@ -2,8 +2,8 @@
 cmake_minimum_required(VERSION 3.18)
 
 # vcpkg path
-include("C:\\src1\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\")
-set(CMAKE_TOOLCHAIN_FILE "C:\\src1\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\")
+include("C:\\src\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\")
+set(CMAKE_TOOLCHAIN_FILE "C:\\src\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake\\")
 set(VCPKG_TARGET_TRIPLET "x64-windows")
 
 # project name and version
