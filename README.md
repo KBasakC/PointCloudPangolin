@@ -15,14 +15,24 @@ This project attempts to fill in this gap and demonstates point cloud visualizat
 ## Dependencies
 ---------------
 - Pangolin
-- Eigen
+
+## Prerequisites
+----------------
+It is assumed that the following are installed and configured
+- Compiler: Visual Studio C++
+- Code editor: Visual Studio Code with C++ and CMake extensions
+- Build system generator: CMake
+- Version control: git 
+- C++ dependency manager: vcpkg
 
 ## Installation
 ---------------
 # Windows (Tested so far)
-- Install Pangolin using the command
+- Install Pangolin ([vcpkg package](https://vcpkg.io/en/packages.html)) using the command
 ```
 vcpkg install pangolin:x64-windows
 ```
-- Code editor: Visual Studio Code
-- Compiler: MVSC from Microsoft Visual Studio Community
+- Note the path where vcpkg is installed. Make sure to use the same path in the CMakeLists.txt inside the "PointCloudPangolin" folder
+- Open the "PointCloudPangolin" folder in VS Code
+- Build
+- Run
